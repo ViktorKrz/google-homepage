@@ -1,0 +1,129 @@
+.rightnav li, .leftnav li, .rightfooter li, .leftfooter li {
+    display: inline;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    opacity: .75;
+  }
+
+.leftnav li {
+    padding: 0 8px;
+}
+.rightnav li {
+    padding: 0 6px;
+}
+
+.leftnav {
+  margin-left: -30px;
+  margin-top: 22px;
+}
+
+.rightnav {
+  float: right;
+  position: relative;
+  margin-right: 150px;
+  margin-top: -19px;
+}
+
+.box img {
+    width: 16.5px;
+    opacity: .55;
+    float: right;
+    margin-right: 118px;
+    margin-top: -33px;
+  }
+
+.circle {
+    width: 31px;
+    height: 31px;
+    background-color: #609;
+    border-radius: 100%;
+    margin-top: -40px;
+    float: right;
+    margin-right: 21px;
+    opacity: .85;
+  }
+
+.v {
+    color: lime;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    z-index: 10;
+    float: right;
+    margin-top: -30px;
+    margin-right: 31px;
+  }
+
+.bell img {
+    margin-top: -40px;
+    margin-right: 65px;
+    float: right;
+  }
+
+.logo img{
+    width: 275px;
+    height: 92px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 158px;
+  }
+
+input {
+    width: 575px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 26px;
+    border: none;
+    box-shadow: 1px 1px 2px 1px #e6e6e6;
+  }
+
+.mic img {
+    display: block;
+    width: 25px;
+    float: right;
+    margin-right: 680px;
+    margin-top: -33px;
+  }
+
+  .buttons {
+    float: right;
+    margin-right: 820px;
+    margin-top: 35px;
+  }
+
+  button {
+    height: 35px;
+    width: 130px;
+    border: none;
+    color: #757575;
+    background-color: #f4f4f4;
+    font-style: Arial, sans-serif;
+    font-weight: bold;
+  }
+
+.footer {
+    background-color: #f2f2f2;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 43px;
+  }
+
+  .rightfooter {
+    float: right;
+    margin-right: -1070px;
+    margin-top: 537px;
+  }
+  
+  .leftfooter {
+    float: left;
+    margin-top: 537px;
+    margin-left: -20px;
+  }
+  
+  .rightfooter li, .leftfooter li {
+    padding: 0 10px;
+    z-index: 1;
+  }
